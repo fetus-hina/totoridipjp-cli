@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$app = new \jp3cki\totoridipjp\cli\Application();
+$app->run();
